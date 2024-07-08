@@ -6,6 +6,7 @@
   .button{
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
+     animation: 3s blink linear infinite;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
@@ -153,6 +154,32 @@
       transform: rotate(370deg) scale(1);
     }
   }
+
+@keyframes blink {
+  0% {
+    color: rgb(5, 5, 5);
+  }
+
+  20% {
+    color: rgb(192, 192, 4);
+  }
+
+  40% {
+    color: rgb(3, 226, 21);
+  }
+
+  60% {
+    color: red;
+  }
+
+  80% {
+    color: rgb(250, 9, 129);
+  }
+
+  100% {
+    color: blue;
+  }
+}
   @keyframes ciut1 {
     0% {
       opacity: 0;
