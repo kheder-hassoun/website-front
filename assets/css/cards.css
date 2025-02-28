@@ -24,7 +24,7 @@
     width: 70%;
     margin: 100px auto;
     transform: rotate(10deg);
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/c1.jpg);
     background-size: contain;
     background-position: right -50px;
     background-color: rgb(28, 29, 29);
@@ -38,7 +38,7 @@
     margin: auto;
     border-radius: 15px;
     transform: rotate(-5deg);
-    background-image: url(../img/2.jpg);
+    background-image: url(../img/c2.jpg);
     background-size: contain;
     background-position: right -70px;
     background-color: rgb(22, 22, 22);
